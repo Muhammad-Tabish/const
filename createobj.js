@@ -1,4 +1,5 @@
-import book from "./book";
+import book from "./book.js";
+
 
 
 const backpack = {
@@ -32,6 +33,7 @@ alert('test')
 const tiger = new book(
     "tabish",
     "emman",
+    "life",
     "black",
     365,
     "1001",
@@ -44,6 +46,7 @@ console.log(tiger);
 const lion = new book(
     "sam",
     "emman",
+    "life",
     "red",
     355,
     "1001",
@@ -57,6 +60,7 @@ console.log(lion);
 const monkey = new book(
     "dam",
     "king kong",
+    "life",
     "black",
     444,
     "2000",
@@ -71,6 +75,7 @@ const whitetiger = new book(
     "tiger",
     "strong",
     "white",
+    "life",
     365,
     "1001",
     365,
@@ -84,6 +89,7 @@ const elephant = new book(
     "ele",
     "small",
     "cementcolor",
+    "life",
     365,
     "1001",
     365,
