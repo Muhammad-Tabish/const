@@ -1,3 +1,6 @@
+import book from "./book";
+
+
 const backpack = {
     name: "tab",
     year: 1996,
@@ -25,3 +28,65 @@ alert('test')
 
 
 
+
+const tiger = new book(
+    "tabish",
+    "emman",
+    "black",
+    365,
+    "1001",
+    365,
+    "finished"
+);
+console.log(tiger);
+
+
+const lion = new book(
+    "sam",
+    "emman",
+    "red",
+    355,
+    "1001",
+    365,
+    "finished"
+);
+console.log(lion);
+
+
+
+const monkey = new book(
+    "dam",
+    "king kong",
+    "black",
+    444,
+    "2000",
+    255,
+    "finished"
+);
+console.log(monkey);
+
+
+
+const whitetiger = new book(
+    "tiger",
+    "strong",
+    "white",
+    365,
+    "1001",
+    365,
+    "not-finished"
+);
+console.log(whitetiger);
+
+
+
+const elephant = new book(
+    "ele",
+    "small",
+    "cementcolor",
+    365,
+    "1001",
+    365,
+    "finished"
+);
+console.log(elephant);
