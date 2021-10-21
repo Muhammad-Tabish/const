@@ -32,3 +32,18 @@ updatereadstatus (newreadstatus) {
 }
 }
 export default book;
+
+
+function greeting(yourname) {
+    console.log ("Hello " + yourname);
+    
+}
+
+var name = prompt("what is your name");
+greeting(name);
+
+
+var a = 10;
+a++;
+
+document.getElementById("sam").innerHTML = a;
